@@ -1,0 +1,48 @@
+say: Welcome To VEDA
+
+ask age: Enter your age
+
+if age greater than 18
+    say: Adult
+
+otherwise
+    say: Minor
+
+repeat 1 times
+    say: Sanpit
+
+action greet
+    say: Welcome To VEDA
+
+action greet
+    say: Welcome To VEDA
+
+do greet    
+
+action hello
+    say: Hello
+
+do hello
+
+do hello
+
+do hello
+
+remember x: 5
+remember y: 6
+
+calculate answer: x * y
+
+say: answer
+
+remember score: 0
+
+change score: 100
+
+say: score
+
+remember name: Sanpit
+
+remember age: 20
+
+say: Hello {name}, you are {age} years old
