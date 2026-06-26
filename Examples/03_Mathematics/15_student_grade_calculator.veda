@@ -1,3 +1,10 @@
+# =========================================
+# VEDA Official Example 15
+# Title: Student Grade Calculator
+# Concepts: ask, calculate, if, otherwise
+# Difficulty: Intermediate
+# =========================================
+
 ask obtainedMarks: Enter obtained marks:
 ask totalMarks: Enter total marks:
 
