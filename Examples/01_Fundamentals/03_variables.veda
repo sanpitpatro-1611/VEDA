@@ -1,0 +1,14 @@
+# =========================================
+# VEDA Official Example 03
+# Title: Variables
+# Concepts: remember, say
+# Difficulty: Beginner
+# =========================================
+
+remember name: YASH
+remember age: 19
+remember country: India
+
+say: Name: {name}
+say: Age: {age}
+say: Country: {country}

@@ -1,4 +1,7 @@
-say: Hello!
-say: My name is YASH.
-say: I am learning the VEDA Programming Language.
-say: Welcome to VEDA!
+remember name: Sanpit
+remember age: 19
+remember country: India
+
+say: Name: {name}
+say: Age: {age}
+say: Country: {country}
