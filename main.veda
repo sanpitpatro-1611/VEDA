@@ -1,8 +1,9 @@
-action greet
-    say: Welcome to VEDA!
+action about
+    say: Welcome to VEDA Programming Language!
+    say: VEDA is designed to be simple and beginner-friendly.
 
-action goodbye
-    say: Thank you for using VEDA!
+action creator
+    say: Created by Sanpit Patro.
 
-do greet
-do goodbye
+do about
+do creator
