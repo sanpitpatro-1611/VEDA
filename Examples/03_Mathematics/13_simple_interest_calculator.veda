@@ -1,0 +1,19 @@
+# =========================================
+# VEDA Official Example 13
+# Title: Simple Interest Calculator
+# Concepts: ask, calculate, say
+# Difficulty: Intermediate
+# =========================================
+
+ask principal: Enter Principal Amount:
+ask rate: Enter Rate of Interest:
+ask time: Enter Time (Years):
+
+calculate interest: principal * rate
+calculate interest: interest * time
+calculate interest: interest / 100
+
+say:
+say: ===== RESULT =====
+say: Simple Interest:
+say: {interest}
