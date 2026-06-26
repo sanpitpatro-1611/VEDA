@@ -1,10 +1,6 @@
-ask name: Enter your name:
 ask age: Enter your age:
-ask city: Enter your city:
 
-say:
-say: ===== YOUR PROFILE =====
-say: Name : {name}
-say: Age  : {age}
-say: City : {city}
-say: ========================
+if age greater than 18
+    say: You are an Adult.
+otherwise
+    say: You are a Minor.

@@ -1,0 +1,13 @@
+# =========================================
+# VEDA Official Example 06
+# Title: Age Checker
+# Concepts: ask, if, otherwise
+# Difficulty: Beginner
+# =========================================
+
+ask age: Enter your age:
+
+if age greater than 18
+    say: You are an Adult.
+otherwise
+    say: You are a Minor.
