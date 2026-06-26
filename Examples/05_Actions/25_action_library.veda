@@ -1,0 +1,23 @@
+# =========================================
+# VEDA Official Example 25
+# Title: Action Library
+# Concepts: action, do
+# Difficulty: Intermediate
+# =========================================
+
+action welcome
+    say: Welcome to VEDA!
+
+action about
+    say: VEDA is a simple programming language.
+
+action help
+    say: Learn. Build. Create.
+
+action exit
+    say: Thank you for using VEDA!
+
+do welcome
+do about
+do help
+do exit

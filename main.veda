@@ -1,9 +1,0 @@
-action about
-    say: Welcome to VEDA Programming Language!
-    say: VEDA is designed to be simple and beginner-friendly.
-
-action creator
-    say: Created by Sanpit Patro.
-
-do about
-do creator
