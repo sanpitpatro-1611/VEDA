@@ -1,7 +1,11 @@
-ask first: Enter the first number:
-ask second: Enter the second number:
+# Store the correct password
+remember password: veda123
 
-if first greater than second
-    say: {first} is greater than {second}.
+# Ask the user for the password
+ask enteredPassword: Enter your password:
+
+# Check the password
+if enteredPassword equals password
+    say: Login Successful! Welcome to VEDA.
 otherwise
-    say: {second} is greater than {first}.
+    say: Incorrect Password. Access Denied.

@@ -78,13 +78,21 @@ while i < len(lines):
 
         if variable in memory:
 
-            try:
-                left = float(memory[variable])
-                right = float(value)
-            except:
-                left = memory[variable]
-                right = value
+           left = memory[variable]
 
+           # NEW: Support variable vs variable comparison
+        if value in memory:
+           right = memory[value]
+        else:
+           right = value
+
+         # Try numeric comparison
+        try:
+           left = float(left)
+           right = float(right)
+        except:
+            pass
+        
             if operator == "greater than":
                 last_if_result = left > right
 
