@@ -1,0 +1,13 @@
+# =========================================
+# VEDA Official Example 07
+# Title: Pass or Fail
+# Concepts: ask, if, otherwise
+# Difficulty: Beginner
+# =========================================
+
+ask marks: Enter your marks:
+
+if marks greater than 34
+    say: Congratulations! You Passed.
+otherwise
+    say: Better Luck Next Time. You Failed.
