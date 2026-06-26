@@ -1,0 +1,13 @@
+# =========================================
+# VEDA Official Example 22
+# Title: Reuse Action
+# Concepts: action, do
+# Difficulty: Intermediate
+# =========================================
+
+action greet
+    say: Welcome to VEDA!
+
+do greet
+do greet
+do greet
