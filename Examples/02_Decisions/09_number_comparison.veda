@@ -1,3 +1,10 @@
+# =========================================
+# VEDA Official Example 09
+# Title: Number Comparison
+# Concepts: ask, if, otherwise
+# Difficulty: Beginner
+# =========================================
+
 ask first: Enter the first number:
 ask second: Enter the second number:
 
