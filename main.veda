@@ -1,0 +1,6 @@
+ask marks: Enter marks:
+
+if marks greater than 34
+    say: PASS
+otherwise
+    say: FAIL

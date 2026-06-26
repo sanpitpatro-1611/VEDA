@@ -49,7 +49,7 @@ while i < len(lines):
     elif line.strip().startswith("ask "):
          ask_execute(memory, line.strip())
 
-    # IF
+    #if
     elif line.strip().startswith("if "):
 
         last_if_result = False
@@ -75,55 +75,59 @@ while i < len(lines):
             i += 1
             continue
 
+        # Resolve LEFT operand
         if variable in memory:
-
-           left = memory[variable]
-
-           # NEW: Support variable vs variable comparison
-        if value in memory:
-           right = memory[value]
+            left = memory[variable]
         else:
-           right = value
+            left = variable
 
-         # Try numeric comparison
+        # Resolve RIGHT operand
+        if value in memory:
+            right = memory[value]
+        else:
+            right = value
+
+        # Convert numbers if possible
         try:
-           left = float(left)
-           right = float(right)
+            left = float(left)
+            right = float(right)
         except:
             pass
-        
-            if operator == "greater than":
-                last_if_result = left > right
 
-            elif operator == "less than":
-                last_if_result = left < right
+        # Compare values
+        if operator == "greater than":
+            last_if_result = left > right
 
-            elif operator == "equals":
-                last_if_result = str(left) == str(right)
+        elif operator == "less than":
+            last_if_result = left < right
 
-            elif operator == "not equals":
-                last_if_result = str(left) != str(right)
+        elif operator == "equals":
+            last_if_result = str(left) == str(right)
 
-            elif operator == "greater than or equals":
-                last_if_result = left >= right
+        elif operator == "not equals":
+            last_if_result = str(left) != str(right)
 
-            elif operator == "less than or equals":
-                last_if_result = left <= right
+        elif operator == "greater than or equals":
+            last_if_result = left >= right
 
-            if last_if_result:
+        elif operator == "less than or equals":
+            last_if_result = left <= right
 
-                if i + 1 < len(lines):
+        # Execute IF block
+        if last_if_result:
 
-                    next_line = lines[i + 1]
+            if i + 1 < len(lines):
 
-                    if next_line.startswith("    "):
+                next_line = lines[i + 1]
 
-                        next_line = next_line.strip()
+                if next_line.startswith("    "):
 
-                        if next_line.startswith("say:"):
-                           say_execute(memory, next_line)
-                        i += 1
+                    next_line = next_line.strip()
 
+                    if next_line.startswith("say:"):
+                        say_execute(memory, next_line)
+
+                    i += 1
         # ACTION
     elif line.strip().startswith("action "):
 
