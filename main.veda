@@ -1,3 +1,1 @@
-say: Welcome to VEDA.
-ask name: what is your name?
-say: hello {name}
+say: Hello World
