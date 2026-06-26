@@ -1,0 +1,15 @@
+# =========================================
+# VEDA Official Example 23
+# Title: Multiple Actions
+# Concepts: action, do
+# Difficulty: Intermediate
+# =========================================
+
+action greet
+    say: Welcome to VEDA!
+
+action goodbye
+    say: Thank you for using VEDA!
+
+do greet
+do goodbye

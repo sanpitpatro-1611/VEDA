@@ -1,0 +1,8 @@
+action greet
+    say: Welcome to VEDA!
+
+action goodbye
+    say: Thank you for using VEDA!
+
+do greet
+do goodbye
