@@ -114,9 +114,7 @@ while i < len(lines):
                         next_line = next_line.strip()
 
                         if next_line.startswith("say:"):
-                            msg = next_line[4:].strip()
-                            execute_say(msg)
-
+                           say_execute(memory, next_line)
                         i += 1
 
         # ACTION
@@ -247,8 +245,7 @@ while i < len(lines):
                     next_line = next_line.strip()
 
                     if next_line.startswith("say:"):
-                        msg = next_line[4:].strip()
-                        execute_say(msg)
+                       say_execute(memory, next_line)
 
                     i += 1
 

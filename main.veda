@@ -1,0 +1,9 @@
+ask first: Enter the first number:
+ask second: Enter the second number:
+
+if first greater than second
+    say: Greater Number:
+    say: {first}
+otherwise
+    say: Greater Number:
+    say: {second}
