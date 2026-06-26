@@ -1,3 +1,10 @@
+# =========================================
+# VEDA Official Example 05
+# Title: Personal Profile
+# Concepts: ask, say, Smart Output
+# Difficulty: Beginner
+# =========================================
+
 ask name: Enter your name:
 ask age: Enter your age:
 ask city: Enter your city:
