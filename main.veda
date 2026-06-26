@@ -1,9 +1,12 @@
-ask obtainedMarks: Enter obtained marks:
-ask totalMarks: Enter total marks:
+ask principal: Enter Principal Amount:
+ask rate: Enter Rate of Interest:
+ask time: Enter Time (Years):
 
-calculate percentage: obtainedMarks / totalMarks
-calculate percentage: percentage * 100
+calculate interest: principal * rate
+calculate interest: interest * time
+calculate interest: interest / 100
 
-say: Your Percentage:
-say: {percentage}
-say: %
+say:
+say: ===== RESULT =====
+say: Simple Interest:
+say: {interest}

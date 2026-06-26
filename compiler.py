@@ -50,7 +50,6 @@ while i < len(lines):
          ask_execute(memory, line.strip())
 
     # IF
-       # IF
     elif line.strip().startswith("if "):
 
         last_if_result = False

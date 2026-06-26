@@ -1,32 +1,27 @@
 def execute(memory, result_name, left_var, operator, right_var):
 
-    if left_var not in memory:
+    # ----------------------------
+    # Resolve LEFT operand
+    # ----------------------------
+    if left_var in memory:
+        left = memory[left_var]
+    else:
+        left = left_var
 
-        print("===================================")
-        print("VEDA ERROR")
-        print("-----------------------------------")
-        print(f'Variable "{left_var}" does not exist.')
-        print("")
-        print("Create it first using:")
-        print(f"remember {left_var}: value")
-        print("===================================")
-        return
+    # ----------------------------
+    # Resolve RIGHT operand
+    # ----------------------------
+    if right_var in memory:
+        right = memory[right_var]
+    else:
+        right = right_var
 
-    if right_var not in memory:
-
-        print("===================================")
-        print("VEDA ERROR")
-        print("-----------------------------------")
-        print(f'Variable "{right_var}" does not exist.')
-        print("")
-        print("Create it first using:")
-        print(f"remember {right_var}: value")
-        print("===================================")
-        return
-
+    # ----------------------------
+    # Convert to numbers
+    # ----------------------------
     try:
-        left = float(memory[left_var])
-        right = float(memory[right_var])
+        left = float(left)
+        right = float(right)
 
     except:
 
@@ -37,6 +32,9 @@ def execute(memory, result_name, left_var, operator, right_var):
         print("===================================")
         return
 
+    # ----------------------------
+    # Perform calculation
+    # ----------------------------
     if operator == "+":
         result = left + right
 
@@ -69,4 +67,7 @@ def execute(memory, result_name, left_var, operator, right_var):
         print("===================================")
         return
 
+    # ----------------------------
+    # Save Result
+    # ----------------------------
     memory[result_name] = str(result)
