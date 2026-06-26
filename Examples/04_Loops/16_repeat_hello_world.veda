@@ -1,0 +1,9 @@
+# =========================================
+# VEDA Official Example 16
+# Title: Repeat Hello World
+# Concepts: repeat, say
+# Difficulty: Intermediate
+# =========================================
+
+repeat 5 times
+    say: Hello VEDA!

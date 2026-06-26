@@ -1,15 +1,2 @@
-ask obtainedMarks: Enter obtained marks:
-ask totalMarks: Enter total marks:
-
-calculate percentage: obtainedMarks / totalMarks
-calculate percentage: percentage * 100
-
-say:
-say: ===== RESULT =====
-say: Percentage:
-say: {percentage}
-
-if percentage greater than 34
-    say: Status: PASS
-otherwise
-    say: Status: FAIL
+repeat 5 times
+    say: Hello VEDA!
