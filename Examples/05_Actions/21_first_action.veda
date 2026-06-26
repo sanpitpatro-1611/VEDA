@@ -1,0 +1,11 @@
+# =========================================
+# VEDA Official Example 21
+# Title: First Action
+# Concepts: action, do
+# Difficulty: Intermediate
+# =========================================
+
+action welcome
+    say: Welcome to VEDA!
+
+do welcome
