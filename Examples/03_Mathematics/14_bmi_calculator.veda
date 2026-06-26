@@ -1,0 +1,17 @@
+# =========================================
+# VEDA Official Example 14
+# Title: BMI Calculator
+# Concepts: ask, calculate, say
+# Difficulty: Intermediate
+# =========================================
+
+ask weight: Enter your weight (kg):
+ask height: Enter your height (meters):
+
+calculate heightSquare: height * height
+calculate bmi: weight / heightSquare
+
+say:
+say: ===== RESULT =====
+say: Your BMI:
+say: {bmi}
