@@ -1,7 +1,0 @@
-remember name: Sanpit
-remember age: 19
-remember country: India
-
-say: Name: {name}
-say: Age: {age}
-say: Country: {country}

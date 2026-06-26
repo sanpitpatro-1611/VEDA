@@ -1,0 +1,11 @@
+# =========================================
+# VEDA Official Example 04
+# Title: User Input
+# Concepts: ask, say
+# Difficulty: Beginner
+# =========================================
+
+ask name: What is your name?
+
+say: Hello {name}!
+say: Welcome to the VEDA Programming Language.
