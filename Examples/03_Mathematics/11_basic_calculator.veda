@@ -1,0 +1,14 @@
+# =========================================
+# VEDA Official Example 11
+# Title: Basic Calculator
+# Concepts: ask, calculate, say
+# Difficulty: Intermediate
+# =========================================
+
+ask number1: Enter first number:
+ask number2: Enter second number:
+
+calculate answer: number1 + number2
+
+say: Result:
+say: {answer}

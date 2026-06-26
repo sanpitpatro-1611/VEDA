@@ -1,0 +1,7 @@
+ask number1: Enter first number:
+ask number2: Enter second number:
+
+calculate answer: number1 + number2
+
+say: Result:
+say: {answer}
