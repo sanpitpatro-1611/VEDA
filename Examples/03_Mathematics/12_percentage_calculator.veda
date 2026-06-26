@@ -1,3 +1,10 @@
+# =========================================
+# VEDA Official Example 12
+# Title: Percentage Calculator
+# Concepts: ask, calculate, say
+# Difficulty: Intermediate
+# =========================================
+
 ask obtainedMarks: Enter obtained marks:
 ask totalMarks: Enter total marks:
 
