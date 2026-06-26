@@ -1,0 +1,13 @@
+# =========================================
+# VEDA Official Example 08
+# Title: Voting Eligibility
+# Concepts: ask, if, otherwise
+# Difficulty: Beginner
+# =========================================
+
+ask age: Enter your age:
+
+if age greater than 17
+    say: You are eligible to vote.
+otherwise
+    say: You are not eligible to vote.
