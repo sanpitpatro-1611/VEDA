@@ -1,3 +1,22 @@
+# =========================================
+# VEDA Official Application 30
+# Title: Business Management System
+# Version: VEDA v1.0 ALPHA
+# Difficulty: Expert
+#
+# Features Used
+# ✓ say
+# ✓ ask
+# ✓ remember
+# ✓ calculate
+# ✓ if
+# ✓ otherwise
+# ✓ repeat
+# ✓ Smart Variable Output
+#
+# Official Showcase Application
+# =========================================
+
 say:
 say: =====================================================
 say:          VEDA BUSINESS MANAGEMENT SYSTEM
