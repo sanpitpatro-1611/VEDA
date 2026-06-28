@@ -1,3 +1,10 @@
+# =========================================
+# VEDA Official Application 26
+# Title: Student Information Card
+# Version: VEDA v1.0 ALPHA
+# Difficulty: Advanced
+# =========================================
+
 say:
 say: ============================================
 say:        STUDENT INFORMATION CARD
@@ -16,19 +23,19 @@ say:             STUDENT DETAILS
 say: ============================================
 say:
 
-say: Student Name: \
+say: Student Name:
 say: {name}
 
-say: Student Age: 
+say: Student Age:
 say: {age}
 
-say: City: 
+say: City:
 say: {city}
 
-say: College: 
+say: College:
 say: {college}
 
-say: Course: 
+say: Course:
 say: {course}
 
 say:
