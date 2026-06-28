@@ -1,0 +1,51 @@
+# =========================================
+# VEDA Official Application 28
+# Title: BMI Health Checker
+# Version: VEDA v1.0 ALPHA
+# Difficulty: Advanced
+# Concepts Used:
+# ask
+# calculate
+# if
+# otherwise
+# say
+# =========================================
+
+say:
+say: ============================================
+say:          BMI HEALTH CHECKER
+say: ============================================
+say:
+
+ask name: Enter Your Name:
+ask age: Enter Your Age:
+ask weight: Enter Weight (kg):
+ask height: Enter Height (m):
+
+calculate square: height * height
+calculate bmi: weight / square
+
+say:
+say: ============================================
+say:             HEALTH REPORT
+say: ============================================
+say:
+
+say: Name:
+say: {name}
+
+say: Age:
+say: {age}
+
+say: BMI:
+say: {bmi}
+
+if bmi greater than 25
+    say: Health Status: OVERWEIGHT
+otherwise
+    say: Health Status: HEALTHY
+
+say:
+say: ============================================
+say: Thank You For Using VEDA
+say: ============================================
