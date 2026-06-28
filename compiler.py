@@ -1,3 +1,5 @@
+import sys
+
 from keywords.say import execute as say_execute
 from keywords.remember import execute as remember_execute
 from keywords.ask import execute as ask_execute
@@ -20,7 +22,12 @@ def execute_say(message):
         print(message)
 
 
-with open("main.veda", "r") as file:
+if len(sys.argv) > 1:
+    filename = sys.argv[1]
+else:
+    filename = "main.veda"
+
+with open(filename, "r") as file:
     lines = file.readlines()
 
 i = 0
