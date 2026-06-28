@@ -1,0 +1,8 @@
+compiler.py
+main.py
+setup.py
+veda.egg-info/PKG-INFO
+veda.egg-info/SOURCES.txt
+veda.egg-info/dependency_links.txt
+veda.egg-info/entry_points.txt
+veda.egg-info/top_level.txt
